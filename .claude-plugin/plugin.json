@@ -1,0 +1,10 @@
+{
+  "name": "pickle-rick",
+  "version": "1.0.0",
+  "description": "Autonomous AI loop manager for iterative task completion. Based on the 'Ralph Wiggum technique' - continuous agent loops that persist until task completion.",
+  "author": "Converted from galz10/pickle-rick-extension",
+  "homepage": "https://github.com/galz10/pickle-rick-extension",
+  "commands": "./commands",
+  "skills": "./skills",
+  "hooks": "./hooks/hooks.json"
+}
