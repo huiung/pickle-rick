@@ -1,0 +1,18 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "pickle-rick",
+  "description": "Autonomous AI loop manager for iterative task completion using the Ralph Wiggum technique",
+  "owner": {
+    "name": "huiung"
+  },
+  "plugins": [
+    {
+      "name": "pickle-rick",
+      "description": "Continuous agent loops that persist until task completion",
+      "version": "1.0.0",
+      "category": "productivity",
+      "source": ".",
+      "homepage": "https://github.com/huiung/pickle-rick"
+    }
+  ]
+}
