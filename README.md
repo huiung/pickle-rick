@@ -13,15 +13,10 @@ Pickle Rick implements the "Ralph Wiggum technique" - continuous AI agent loops 
 Claude Code에서 다음 명령어를 실행하세요:
 
 ```bash
-# 1. 마켓플레이스 추가
 /plugin marketplace add huiung/pickle-rick
 
-# 2. 플러그인 설치
 /plugin install pickle-rick@huiung/pickle-rick
 ```
-
-또는 `/plugin` 명령어로 대화형 UI를 열어 설치할 수도 있습니다.
-
 ## Commands
 
 ### `/pickle [task] [options]`
