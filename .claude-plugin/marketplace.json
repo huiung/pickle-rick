@@ -11,7 +11,7 @@
       "description": "Continuous agent loops that persist until task completion",
       "version": "1.0.0",
       "category": "productivity",
-      "source": ".",
+      "source": "./",
       "homepage": "https://github.com/huiung/pickle-rick"
     }
   ]
