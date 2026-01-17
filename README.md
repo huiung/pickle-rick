@@ -10,30 +10,17 @@ Pickle Rick implements the "Ralph Wiggum technique" - continuous AI agent loops 
 
 ## Installation
 
-### Option 1: Plugin Directory
+Claude Code에서 다음 명령어를 실행하세요:
+
 ```bash
-# Copy the plugin to your Claude plugins directory
-cp -r pickle-rick ~/.claude/plugins/
+# 1. 마켓플레이스 추가
+/plugin marketplace add huiung/pickle-rick
 
-# Or symlink it
-ln -s /path/to/pickle-rick ~/.claude/plugins/pickle-rick
+# 2. 플러그인 설치
+/plugin install pickle-rick@huiung/pickle-rick
 ```
 
-### Option 2: Per-Session
-```bash
-# Use the --plugin-dir flag when starting Claude
-claude --plugin-dir /path/to/pickle-rick
-```
-
-### Option 3: Settings Configuration
-Add to your Claude Code settings:
-```json
-{
-  "plugins": [
-    "~/.claude/plugins/pickle-rick"
-  ]
-}
-```
+또는 `/plugin` 명령어로 대화형 UI를 열어 설치할 수도 있습니다.
 
 ## Commands
 
