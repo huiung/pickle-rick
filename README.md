@@ -10,7 +10,7 @@ Pickle Rick implements the "Ralph Wiggum technique" - continuous AI agent loops 
 
 ## Installation
 
-Claude Code에서 다음 명령어를 실행하세요:
+Run the following command in Claude Code.
 
 ```bash
 /plugin marketplace add huiung/pickle-rick
